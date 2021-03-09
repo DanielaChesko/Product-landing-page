@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="https://kit.fontawesome.com/e08fd5cb13.js" crossorigin="anonymous"></script>       <!--link de fontawesome.com-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCC: Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body id="body">
+    <header id="header">
+        <img id="header-img" src="https://s3.amazonaws.com/freecodecamp/original_trombones.png" alt="Logo Original Trombones">
+        <nav id="nav-bar">
+            <ul id="list">
+                <li><a class="nav-link" href="#features">Features</a></li>
+                <li><a class="nav-link" href="#howitworks">How it works</a></li>
+                <li><a class="nav-link" href="#pricing">Pricing</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+        <h1>Handcrafted, home-made masterpieces</h1>
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <input name="email" required id="email" type="email" placeholder="Enter your email address">
+            <input id="submit" type="submit" value="GET STARTED">
+        </form>
+
+        <section id="features">
+            <article class="class-features">
+                <i class="fas fa-3x fa-fire"></i>
+                <div class="titulo-features-dif">
+                    <h3>Premium Materials</h3>
+                    <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+                </div>
+            </article>
+            <article class="class-features">
+                <i class="fas fa-3x fa-truck"></i>
+                <div class="titulo-features">
+                    <h3>Fast Shipping</h3>
+                    <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+                </div>
+            </article>
+            <article class="class-features">
+                <i class="fas fa-3x fa-battery-full"></i>
+                <div class="titulo-features">
+                    <h3>Quality Assurance</h3>
+                    <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+                </div>
+            </article>
+        </section>
+
+        <section id="howitworks">
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/RIKOJP9PHP0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+
+        <section id="pricing">
+            <article class="art-pricing">
+                <h4>TENOR TROMBONE</h4>
+                <h5><b>$600</b></h5>
+                <p class="art-p-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ut ex cupiditate impedit ab soluta alias consectet.</p>
+                <button>SELECT</button>
+            </article>
+            <article  class="art-pricing">
+                <h4>BASS TROMBONE</h4>
+                <h5><b>$900</b></h5>
+                <p class="art-p-texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis nam, nostrum quisquam modi asperiores.</p>
+                <button>SELECT</button>
+            </article>
+            <article  class="art-pricing">
+                <h4>VALVE TROMBONE</h4>
+                <h5><b>$1200</b></h5>
+                <p class="art-p-texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor doloribus suscipit error labore soluta, ad ratione.</p>
+                <button>SELECT</button>
+            </article>
+        </section>
+
+    </main>
+
+    <footer id="footer">
+        <div>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Contact</a>
+        </div>
+        <p>Copyright 2020, Original Trombones</p>
+    </footer>
+</body>
+</html>
+
